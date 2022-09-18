@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News page</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            overflow :  hidden;
+            width: 100%;
+            height: 100vh;
+            background-image: url(summa.jpg);
+            background-size: cover;
+            text-align: center;
+        }
+		body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: transparent ! important;
+  color: white;
+}
+    </style>
+</head>
+<body>
+	<div class="topnav">
+		<a class="active" href="index.html">Home</a>
+		<a href="help.html">Help</a>
+		<a href="Case .html">Case</a>
+		<a href="News.html">News</a>
+		<a href="about.html">About</a>
+	  </div>
+    <div class="box">
+<table>
+	<br><br><br><br><br><br>
+	<form action="next.php" method="post">
+		<label>RESULT 1</label>
+		<input type="number" placeholder="enter result">
+		<br><br>
+		<label>RESULT 2</label>
+		<input type="number" placeholder="enter result">
+		<br><br>
+		<label>RESULT 3</label>
+		<input type="number" placeholder="enter result">
+		<br><br>
+		<label>RESULT 4</label>
+		<input type="number" placeholder="enter result">
+		<br><br>
+		<label>RESULT 5</label>
+		<input type="number" placeholder="enter result">
+		<br><br>
+		<input type="submit">
+	</form>
+</table>
+</div>
+</body>
+</html>
